@@ -1,0 +1,62 @@
+
+/*@media only screen and (min-width: 240px) and (max-width: 960px) {*/
+@media only screen and (min-width: 240px) and (max-width: 1280px) {
+    /* xperia neo (Portrait) & xperia neo (Landscape) */
+	
+	.drillmenu{ /* main DIV container of menu */
+	width: 300px; /*width of menu*/
+	height: auto; /*Height of DIV for those with JavaScript disabled*/
+	max-height: 550px;
+	overflow-y: scroll; /*Scrollable DIV for those with JavaScript disabled*/
+	/*background: lightyellow;*/ /*background of menu.*/
+	}
+	
+	.drillmenu ul{ /*menu ULs*/
+	font-family: 'Muli';
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+
+	li.backcontroltitle{ /*style of top level menu title*/
+	background: black;
+	color: white;
+	padding: 14px;
+	}
+
+	li.backcontrol{ /*style of back button control that gets added to the top of each sub UL*/
+	background: black;
+	color: #FFF;
+	margin-top:-46px;
+	padding: 14px;
+	cursor: hand;
+	cursor: pointer;
+	}   
+	
+	.drillmenu li a{ /*menu links*/
+	display: block;
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	text-align:left;
+	}
+	
+	* html .drillmenu li{ /*IE6 CSS hack*/
+	display: inline-block;
+	}
+	
+	.drillmenu li a:hover{
+	/*background-color: #4A2500;*/
+	color: white;
+	}
+	
+	#drillcrumb{ /*custom, user defined DIV that contains breadcrumb trail*/
+	margin-bottom: 5px;
+	font: bold 15px Verdana;
+	}
+	
+	#drillcrumb a{ /*custom element*/
+	color: darkred;
+	}
+}

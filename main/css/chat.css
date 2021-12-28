@@ -1,0 +1,153 @@
+.chatbox {
+	margin-bottom:30px;
+	margin-right:-15px;
+	position:absolute;
+	z-index:999999;
+	float:right;
+	/*position:expression("absolute");*/
+	width: 225px;
+	display:none;
+	-moz-box-shadow: 0 5px 9px #000;
+	-webkit-box-shadow: 0 3px 6px #000;
+	box-shadow: 0 10px 15px #000;
+}
+
+.chatboxhead {
+	background-color: #000;
+	padding:7px;
+	color: #ffffff;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+	background-color: #161551;
+	  background-repeat: repeat-x;
+	  background-image: -khtml-gradient(linear, left top, left bottom, from(#262389), to(#161551));
+	  background-image: -moz-linear-gradient(top, #262389, #161551);
+	  background-image: -ms-linear-gradient(top, #262389, #161551);
+	  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #262389), color-stop(100%, #161551));
+	  background-image: -webkit-linear-gradient(top, #262389, #161551);
+	  background-image: -o-linear-gradient(top, #262389, #161551);
+	  background-image: linear-gradient(top, #262389, #161551);
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#262389', endColorstr='#161551', GradientType=0);
+	  border-color: #161551 #161551 #e4c652;
+	  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	  border-width: 1px;
+	  border-style: solid;
+	  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+	  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.chatboxblink {
+	background-color: #176689;
+	border-right:1px solid #176689;
+	border-left:1px solid #176689;
+	background-color: #16420f;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#38a526), to(#16420f));
+  background-image: -moz-linear-gradient(top, #38a526, #16420f);
+  background-image: -ms-linear-gradient(top, #38a526, #16420f);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #38a526), color-stop(100%, #16420f));
+  background-image: -webkit-linear-gradient(top, #38a526, #16420f);
+  background-image: -o-linear-gradient(top, #38a526, #16420f);
+  background-image: linear-gradient(top, #38a526, #16420f);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#38a526', endColorstr='#16420f', GradientType=0);
+  border-color: #16420f #16420f #e4c652;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-width: 1px;
+  border-style: solid;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.chatboxcontent {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	color: #333333;
+	height:200px;
+	width:209px;
+	overflow-y:auto;
+	overflow-x:auto;
+	padding:7px;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #eeeeee;
+	background-color: #ffffff;
+	line-height: 1.3em;
+	background-color: #e6e6e6;
+	  background-repeat: no-repeat;
+	  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+	  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+	  background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+	  font-size: 13px;
+	  line-height: normal;
+	  border: 1px solid #ccc;
+	  border-bottom-color: #bbb;
+	  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	  -webkit-transition: 0.1s linear background-image;
+	  -moz-transition: 0.1s linear background-image;
+	  -ms-transition: 0.1s linear background-image;
+	  -o-transition: 0.1s linear background-image;
+	  transition: 0.1s linear background-image;
+}
+
+.chatboxinput {
+	padding: 5px;
+	background-color: #ffffff;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+}
+
+.chatboxtextarea {
+	width: 206px;
+	height:44px;
+	padding:3px 0pt 3px 3px;
+	border: 1px solid #eeeeee;
+	margin: 1px;
+	overflow:hidden;
+}
+
+.chatboxtextareaselected {
+	border: 2px solid #000;
+	margin:0;
+}
+
+.chatboxmessage {
+	margin-left:1em;
+}
+
+.chatboxinfo {
+	margin-left:-1em;
+	color:#666666;
+
+}
+
+.chatboxmessagefrom {
+	margin-left:-1em;
+	font-weight: bold;
+}
+
+.chatboxmessagecontent {
+}
+
+.chatboxoptions {
+	float: right;
+}
+
+.chatboxoptions a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+	font-family:Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+}
+
+.chatboxtitle {
+	float: left;
+}

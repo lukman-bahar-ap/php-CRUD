@@ -1,0 +1,264 @@
+body{
+	font-family: "Muli";
+	font-size:11px;
+	/*color:#FFF;*/
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{
+	list-style:none;
+	text-align:left;
+}
+
+li.menu{
+	/* The main list elements */
+	padding:2px 0px 0px 0px;
+	width:100%;
+}
+
+li.button a{
+	/* The section titles */
+	background-color:#e9ebec;
+	color:#000;
+	padding:13px 15px 0;
+	width:245px;
+	height:25px;
+	overflow:hidden;
+	position:relative;
+	display:block;
+	text-decoration:none;
+	outline:none;
+}
+
+li.button a:hover{
+	/* Removing the inherited underline from the titles */
+	color:#fff;
+	background:#6b67ff;
+	text-decoration:none;
+}
+
+li.button a span{
+	/* This span acts as the right part of the section's background */
+	height:25px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:4px;
+	display:block;
+}
+
+li.buttonSendiri a{
+	/* The section titles */
+	background-color:#444444;
+	color:#fff;
+	padding:13px 15px 0;
+	width:245px;
+	height:25px;
+	overflow:hidden;
+	position:relative;
+	display:block;
+	text-decoration:none;
+	outline:none;
+}
+
+li.buttonSendiri a:hover{
+	/* Removing the inherited underline from the titles */
+	color:#01c5f3;
+	background:#fff;
+	text-decoration:none;
+}
+
+li.buttonSendiri a span{
+	/* This span acts as the right part of the section's background */
+	height:25px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:4px;
+	display:block;
+}
+
+/* The hover effects */
+/* Setting up different styles for each section color */
+
+/*li.button a.blue{background:url(img/blue.png) repeat-x top left; color:#074384;}
+li.button a.blue span{ background:url(img/blue.png) repeat-x top right;}*/
+
+li.button a.green{background:url(img/green.png) repeat-x top left; color:#436800;}
+li.button a.green span{ background:url(img/green.png) repeat-x top right;}
+
+li.button a.warna1{background-color:#6b67ff; color:#fff;}
+li.button a.warna1:hover{color:#000; text-decoration:none; background:#f3ce0e;}
+li.button a.warna1:focus{color:#000; text-decoration:none; background:#f3ce0e;}
+li.button a.warna1:active{color:#000; text-decoration:none; background:#f3ce0e;}
+li.button a.warna1 span{ background-color:#fa2c19;}
+
+li.button a.warna2{background-color:#18aeff; color:#fff;}
+li.button a.warna2:hover{color:#fff; text-decoration:none; background:#fa2c19;}
+li.button a.warna2:focus{color:#fff; text-decoration:none; background:#fa2c19;}
+li.button a.warna2:active{color:#12d312; text-decoration:none; background:#fa2c19;}
+li.button a.warna2 span{ background-color:#fa2c19;}
+
+li.buttonSendiri a.green{background:url(img/green.png) repeat-x top left; color:#436800;}
+li.buttonSendiri a.green span{ background:url(img/green.png) repeat-x top right;}
+
+li.buttonSendiri a.warna1{background-color:#6b67ff; color:#fff;}
+li.buttonSendiri a.warna1:hover{color:#000; text-decoration:none; background:#f3ce0e;}
+li.buttonSendiri a.warna1:focus{color:#000; text-decoration:none; background:#f3ce0e;}
+li.buttonSendiri a.warna1:active{color:#000; text-decoration:none; background:#f3ce0e;}
+li.buttonSendiri a.warna1 span{ background-color:#fa2c19;}
+
+li.buttonSendiri a.warna2{background-color:#18aeff; color:#fff;}
+li.buttonSendiri a.warna2:hover{color:#fff; text-decoration:none; background:#fa2c19;}
+li.buttonSendiri a.warna2:focus{color:#fff; text-decoration:none; background:#fa2c19;}
+li.buttonSendiri a.warna2:active{color:#12d312; text-decoration:none; background:#fa2c19;}
+li.buttonSendiri a.warna2 span{ background-color:#fa2c19;}
+
+li.button a.orange{background:url(img/orange.png) repeat-x top left; color:#882e02;}
+li.button a.orange span{ background:url(img/orange.png) repeat-x top right;}
+
+li.button a.red{background:url(img/red.png) repeat-x top left; color:#641603;}
+li.button a.red span{ background:url(img/red.png) repeat-x top right;}
+
+/* The hover effects */
+
+li.button a:hover{ background-position:bottom left;}
+li.button a:hover span{ background-position:bottom right;}
+
+li.buttonSendiri a.orange{background:url(img/orange.png) repeat-x top left; color:#882e02;}
+li.buttonSendiri a.orange span{ background:url(img/orange.png) repeat-x top right;}
+
+li.buttonSendiri a.red{background:url(img/red.png) repeat-x top left; color:#641603;}
+li.buttonSendiri a.red span{ background:url(img/red.png) repeat-x top right;}
+
+/* The hover effects */
+
+li.buttonSendiri a:hover{ background-position:bottom left;}
+li.buttonSendiri a:hover span{ background-position:bottom right;}
+
+.dropdown{
+	/* The expandable lists */
+	display:none;
+	padding-top:0px;
+	text-decoration:none;
+	width:275px;
+}
+
+.dropdown li{
+	/* Each element in the expandable list */
+	background-color:#fff;
+	border:0px solid #e9ebec;
+	color:#000;
+	margin:2px 0px 0px 0px;
+	padding:0px 0px;
+	text-decoration:none;
+}
+
+.dropdown li a{
+	/* Each element in the expandable list */
+	color:#000;
+	padding:13px 15px; 0px;
+	text-decoration:none;
+	outline:none;
+	display:block;
+	background-color:#e9ebec;
+}
+
+.dropdown li a:hover{
+	/* Each element in the expandable list */
+	color:#000;
+	text-decoration:none;
+	background-color:#fcf303;
+}
+
+.dropdown li a:focus{
+	/* Each element in the expandable list */
+	color:#000;
+	text-decoration:none;
+	background-color:#f3ce0e;
+}
+
+.dropdown li a:active{
+	/* Each element in the expandable list */
+	color:#000;
+	text-decoration:none;
+	background-color:#f3ce0e;
+}
+
+#menulight1 li a.current {
+	background-color:#c1e6f7;
+	color:#000;
+}
+
+#menulight2 li a.current {
+	background-color:#c1e6f7;
+	color:#000;
+}
+
+#menulight3 li a.current {
+	background-color:#f3ce0e;
+	color:#000;
+}
+
+#menulight4 li a.current {
+	background-color:#c1e6f7;
+	color:#000;
+}
+
+#menulight5 li a.current {
+	background-color:#c1e6f7;
+	color:#000;
+}
+
+#menulight6 li a.current {
+	background-color:#c1e6f7;
+	color:#000;
+}
+
+#menulight7 li a.current {
+	background-color:#c1e6f7;
+	color:#000;
+}
+
+/*DHTML BUTTON*/
+li.button_dhtml a{
+	/* The section titles */
+	background-color:#e9ebec;
+	color:#000;
+	padding:5px 15px 0;
+	width:178px;
+	height:18px;
+	overflow:hidden;
+	position:relative;
+	display:block;
+	text-decoration:none;
+	outline:none;
+	font-size:11px;
+	border-bottom:solid 1px #FFF;
+}
+
+li.button_dhtml a:hover{
+	/* Removing the inherited underline from the titles */
+	color:#fff;
+	background:#6b67ff;
+	text-decoration:none;
+}
+
+li.button_dhtml a span{
+	/* This span acts as the right part of the section's background */
+	height:25px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:4px;
+	display:block;
+}
+
+#menulight1_dhtml li a.current {
+	background-color:#fcf303;
+	color:#000;
+}

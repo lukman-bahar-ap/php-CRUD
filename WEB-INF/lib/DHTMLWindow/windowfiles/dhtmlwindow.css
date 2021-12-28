@@ -1,0 +1,70 @@
+@import url("font-muli.css");
+
+.dhtmlwindow{
+position: absolute;
+border: 1px solid #c8c7cc;
+visibility: hidden;
+background-color: white;
+z-index:-1;
+}
+
+.dhtmlwindow2{
+position: absolute;
+border: 1px solid #c8c7cc;
+visibility: hidden;
+background-color: white;
+z-index:999;
+}
+
+.drag-handle{ /*CSS for Drag Handle*/
+padding: 1px;
+text-indent: 3px;
+FONT-FAMILY: 'Muli';
+FONT-SIZE: 11px; 
+background-color: #007aff;
+color: white;
+cursor: move;
+overflow: hidden;
+width: auto;
+filter:progid:DXImageTransform.Microsoft.alpha(opacity=100);
+-moz-opacity: 1;
+opacity: 1;
+
+}
+
+.drag-handle .drag-controls{ /*CSS for controls (min, close etc) within Drag Handle*/
+position: absolute;
+right: 1px;
+top: 1px;
+cursor: hand;
+cursor: pointer;
+}
+
+* html .drag-handle{ /*IE6 and below CSS hack. Width must be set to 100% in order for opaque title bar to render*/
+width: 100%;
+}
+
+
+.drag-contentarea{ /*CSS for Content Display Area div*/
+border-top: 1px solid brown;
+background-color: white;
+color: black;
+height: 150px;
+padding: 0px;
+overflow: auto;
+}
+
+.drag-statusarea{ /*CSS for Status Bar div (includes resizearea)*/
+/*border-top: 1px solid gray;*/
+background-color: #F8F8F8;
+height: 1px; /*height of resize image*/
+}
+
+
+.drag-resizearea{ /*CSS for Resize Area itself*/
+float: right;
+width: 13px; /*width of resize image*/
+height: 1px; /*height of resize image*/
+cursor: nw-resize;
+font-size: 0;
+}

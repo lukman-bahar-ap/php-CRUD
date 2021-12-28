@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} -f [OR]
+RewriteCond %{SCRIPT_FILENAME} -d
+RewriteRule ^.*$ - [S=84]
+
+RewriteRule ^berita-([a-zA-Z0-9_]+)\.html$ index.php?pg=berita&reqKategori=$1
+RewriteRule ^berita-([a-zA-Z0-9_]+)-([0-9]+)\.html$ index.php?pg=berita&reqKategori=$1&reqPage=$2&reqFlag=
+
+RewriteRule ^berita_detil-([0-9]+)-([a-zA-Z0-9_]+)\.html$ index.php?pg=berita_detil&reqMode=$2&reqBeritaId=$1
+RewriteRule ^gambar_pena_detil-([0-9]+)-([a-zA-Z0-9_]+)\.html$ index.php?pg=gambar_pena_detil&reqMode=$2&reqGaleriId=$1
+RewriteRule ^gambar_pena-([0-9]+)\.html$ index.php?pg=gambar_pena&reqPage=$1&reqFlag=
+
+RewriteRule ^video_detil-([0-9]+)-([a-zA-Z0-9_]+)\.html$ index.php?pg=video_detil&reqMode=$2&reqVideoId=$1
+RewriteRule ^video-([0-9]+)\.html$ index.php?pg=video&reqPage=$1&reqFlag=
+
+RewriteRule ^([a-zA-Z0-9_]+)-fokus_berita\.html$ index.php?pg=fokus_berita&reqFokusBeritaId=$1
+
+#RewriteRule ^gambar_pena\.html$ index.php?pg=gambar_pena
+RewriteRule ^([0-9]+)-info\.html$ index.php?pg=info&reqInfoId=$1
+#RewriteRule ^redaksi\.html$ index.php?pg=redaksi
+
+RewriteRule ^([a-zA-Z0-9_]+)\.html$ index.php?pg=$1
+
+</IfModule>

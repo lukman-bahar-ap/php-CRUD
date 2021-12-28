@@ -1,0 +1,55 @@
+ol#toc {
+	font-size: 11px;
+	font-family:'Muli';
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol#toc a {
+    background: #FFF url(tabs.gif);
+    color: #008;
+    display: block;
+    float: left;
+    height: 2em;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+ol#toc a:hover {
+    background-color: #3af;
+    background-position: 0 -120px;
+}
+
+ol#toc a:hover span {
+    background-position: 100% -120px;
+}
+
+ol#toc li {
+    float: left;
+    margin: 0 1px 0 0;
+}
+
+ol#toc li.current a {
+    background-color: #48f;
+    background-position: 0 -60px;
+    color: #fff;
+}
+
+ol#toc li.current span {
+    background-position: 100% 30px;
+	margin-top:-2px;
+	font-family:'Muli';
+	font-size:11px;
+}
+
+ol#toc span {
+    background: url(tabs.gif) 100% 0;
+    display: block;
+    line-height: 2em;
+    padding-right: 5px;
+	margin-top:-2px;
+	font-family:'Muli';
+	font-size:11px;	
+}

@@ -1,0 +1,212 @@
+/* General Demo Style */
+body{
+    background:#f9f9f9 url(../images/white_texture.jpg) repeat top left;
+	color: #333;
+	font-family: 'Lato';
+	font-size: 13px;
+}
+.container{
+	position:relative;
+}
+a{
+	color: #fff;
+	text-decoration: none;
+}
+.clr{
+	clear: both;
+}
+.main{
+	position:relative;
+    width:1200px;
+    margin: 0 auto;
+}
+
+#btn_menu_1 {
+	background: url('../../images/btn-master-data.png') no-repeat 0 0;
+	width: 114px;
+	height: 150px;
+	float: left;
+	margin: 8px 0 0 20px;
+}
+#btn_menu_2 {
+	background: url('../../images/btn-ppsdm.png') no-repeat 0 0;
+	width: 114px;
+	height: 150px;
+	float: left;
+	margin: 8px 0 0 20px;
+}
+#btn_menu_3 {
+	background: url('../../images/btn-tenaga-kependidikan.png') no-repeat 0 0;
+	width: 114px;
+	height: 150px;
+	float: left;
+	margin: 8px 0 0 20px;
+}
+#btn_menu_4 {
+	background: url('../../images/btn-tenaga-pendidik.png') no-repeat 0 0;
+	width: 114px;
+	height: 150px;
+	float: left;
+	margin: 8px 0 0 20px;
+}
+#btn_menu_5 {
+	background: url('../../images/btn-setting.png') no-repeat 0 0;
+	width: 114px;
+	height: 150px;
+	float: left;
+	margin: 8px 0 0 20px;
+}
+#btn_menu_6 {
+	background: url('../../images/btn-laporan.png') no-repeat 0 0;
+	width: 114px;
+	height: 150px;
+	float: left;
+	margin: 8px 0 0 20px;
+}
+#btn_menu_7 {
+	background: url('../../images/btn-catat-surat.png') no-repeat 0 0;
+	width: 114px;
+	height: 150px;
+	float: left;
+	margin: 8px 0 0 20px;
+}
+
+#btn_menu_1_center {
+	background: url('../../images/btn-master-data-mobile.png') no-repeat 0 0;
+	width: 94px;
+	height: 124px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 135px;
+}
+
+#btn_menu_2_center {
+	background: url('../../images/btn-ppsdm-mobile.png') no-repeat 0 0;
+	width: 94px;
+	height: 124px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 135px;
+}
+#btn_menu_3_center {
+	background: url('../../images/btn-tenaga-kependidikan-mobile.png') no-repeat 0 0;
+	width: 94px;
+	height: 124px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 135px;
+}
+#btn_menu_4_center {
+	background: url('../../images/btn-tenaga-pendidik-mobile.png') no-repeat 0 0;
+	width: 94px;
+	height: 124px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 135px;
+}
+#btn_menu_5_center {
+	background: url('../../images/btn-setting-mobile.png') no-repeat 0 0;
+	width: 94px;
+	height: 124px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 135px;
+}
+#btn_menu_6_center {
+	background: url('../../images/btn-laporan-mobile.png') no-repeat 0 0;
+	width: 94px;
+	height: 124px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 135px;
+}
+#btn_menu_7_center {
+	background: url('../../images/btn-catat-surat-mobile.png') no-repeat 0 0;
+	width: 94px;
+	height: 124px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 135px;
+} 
+
+@media (max-width:767px) {
+  #btn_menu_1 {
+	  background: url('../../images/btn-master-data-mobile.png') no-repeat 0 0;
+	  width: 94px;
+	  height: 124px;
+	  float: left;
+	  margin: 8px 0 0 20px;
+  }
+  #btn_menu_2 {
+	  background: url('../../images/btn-ppsdm-mobile.png') no-repeat 0 0;
+	  width: 94px;
+	  height: 124px;
+	  float: left;
+	  margin: 8px 0 0 20px;
+  }
+  #btn_menu_3 {
+	  background: url('../../images/btn-tenaga-kependidikan-mobile.png') no-repeat 0 0;
+	  width: 94px;
+	  height: 124px;
+	  float: left;
+	  margin: 8px 0 0 20px;
+  }
+  #btn_menu_4 {
+	  background: url('../../images/btn-tenaga-pendidik-mobile.png') no-repeat 0 0;
+	  width: 94px;
+	  height: 124px;
+	  float: left;
+	  margin: 8px 0 0 20px;
+  }
+  #btn_menu_5 {
+	  background: url('../../images/btn-setting-mobile.png') no-repeat 0 0;
+	  width: 94px;
+	  height: 124px;
+	  float: left;
+	  margin: 8px 0 0 20px;
+  }
+  #btn_menu_6 {
+	  background: url('../../images/btn-laporan-mobile.png') no-repeat 0 0;
+	  width: 94px;
+	  height: 124px;
+	  float: left;
+	  margin: 8px 0 0 20px;
+  }
+  #btn_menu_7 {
+	  background: url('../../images/btn-catat-surat-mobile.png') no-repeat 0 0;
+	  width: 94px;
+	  height: 124px;
+	  float: left;
+	  margin: 8px 0 0 20px;
+  }
+}
+
+#btn_menu_1:hover, #btn_menu_2:hover, #btn_menu_3:hover, #btn_menu_4:hover, #btn_menu_5:hover, #btn_menu_6:hover, #btn_menu_7:hover { 
+	cursor: pointer; -webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+}
+#btn_menu_1:hover, #btn_menu_2:hover, #btn_menu_3:hover, #btn_menu_4:hover, #btn_menu_5:hover, #btn_menu_6:hover, #btn_menu_7:hover {
+	background-position: 0 -150px;
+}
+
+@media (max-width:767px) {
+  #btn_menu_1:hover, #btn_menu_2:hover, #btn_menu_3:hover, #btn_menu_4:hover, #btn_menu_5:hover, #btn_menu_6:hover, #btn_menu_7:hover { 
+	  cursor: pointer; -webkit-transition: all 0s ease; 
+	  -moz-transition: all 0s ease; 
+	  -o-transition: all 0s ease; 
+	  transition: all 0s ease;
+  }
+	
+  #btn_menu_1:hover, #btn_menu_2:hover, #btn_menu_3:hover, #btn_menu_4:hover, #btn_menu_5:hover, #btn_menu_6:hover, #btn_menu_7:hover {
+	  background-position: 0 -124px;
+  }	
+}

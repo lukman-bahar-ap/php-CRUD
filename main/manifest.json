@@ -1,0 +1,22 @@
+{
+    "name": "SAOS",
+    "short_name": "SAOS",
+    "description": "SAOS",
+    "start_url": "/index.php",
+    "display": "standalone",
+    "background_color": "#2c0231",
+    "theme_color": "#2c0231",
+    "gcm_sender_id": "887991061538",
+    "icons": [  
+          {
+            "src": "../main/asset/image/logo-login.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "../main/asset/image/logo-login.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+    ]
+}

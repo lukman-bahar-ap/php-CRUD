@@ -1,0 +1,167 @@
+   
+/* default styles */
+a { color: #3434FF; text-decoration:none; FONT-FAMILY: 'Muli'; FONT-SIZE: 11px;}
+a:hover { color: red; text-decoration:none; FONT-FAMILY: 'Muli'; FONT-SIZE: 11px;}
+a:active { color: red; text-decoration: none; FONT-FAMILY: 'Muli'; FONT-SIZE: 11px;}
+
+.hrf-1 {
+	FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: 'Muli'}
+.hrf-2 {
+	FONT-SIZE: 10px; COLOR: blue; FONT-FAMILY: 'Muli'}
+.hrf-3 {
+	FONT-SIZE: 10px; COLOR: white; FONT-FAMILY: 'Muli'}
+.hrf-4 {
+	FONT-SIZE: 10px; COLOR: red; FONT-FAMILY: 'Muli'}
+.hrf-5 {
+	FONT-SIZE: 16px; COLOR: black; FONT-FAMILY: 'Muli'}
+.hrf-6 {
+	FONT-SIZE: 10px; COLOR: white; FONT-FAMILY: 'Muli'}
+.hrf-7 {
+	FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: 'Muli'}	
+		
+.button { padding: 4px; font: 10px 'Muli'; COLOR: black; }
+	
+<!--untuk tabel-->
+p, td, th {
+    font:'Muli';
+}
+
+.datatable {
+    border: 1px solid #D6DDE6;
+    border-collapse: collapse;
+}
+.datatable td{
+    border: 1px solid #D6DDE6;
+    padding: 4px;
+	font-family:'Muli';
+	font-size:11px;
+	color: black;
+}
+.datatable tr{
+    border: 1px solid #D6DDE6;
+    padding: 4px;
+	font-family:'Muli';
+	font-size:11px;
+	color: black;
+}
+
+.datatable input, textarea{
+    border: 1px solid #D6DDE6;
+	padding: 3px;
+	font-family:'Muli';
+	font-size:11px;
+	color: black;
+}
+.datatable select, option{
+    border: 1px solid #D6DDE6;
+	font-family:'Muli';
+	font-size:11px;
+	color: black;
+}
+.datatable th {
+    border: 1px solid #828282;
+    background-color: #BCBCBC;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 4px;
+	padding-right: 0px;
+	text-align:center;
+	font-family:'Muli';
+	font-size:11px;
+}
+
+.datatableprint {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+.datatableprint td {
+    border: 1px solid #000000;
+    padding: 5px;
+	font-family:'Muli';
+	font-size:8px;
+	color: black;
+}
+
+.datatableprint th {
+    border: 1px solid #000000;
+    background-color: #BCBCBC;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 4px;
+	padding-right: 0px;
+	text-align:center;
+	font-family:'Muli';
+	font-size:10px;
+}
+
+.datatablelogin {
+    border: 0px solid #000000;
+    border-collapse: collapse;
+}
+.datatablelogin td {
+    border: 0px solid #000000;
+    padding: 3px;
+	font-family:'Muli';
+	font-size:11px;
+	color: #7f7f7f;
+}
+.datatablelogin input, textarea{
+    border: 1px solid #D6DDE6;
+	padding: 3px;
+	font-family:'Muli';
+	font-size:11px;
+	color: black;
+}
+
+
+
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Muli Light'), local('Muli-Light'), url(_fUwxgthNvUM9WCtMyMvbA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Muli Italic'), local('Muli-Italic'), url(9pglA9mmygCxuxvISUrc-g.woff) format('woff');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Muli Light Italic'), local('Muli-LightItalic'), url(Q5N_zd0042xOVES9NXt9Qj8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Muli';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Muli'), url(kU4XYdV4jtS72BIidPtqyw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Passion One';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Passion One Bold'), local('PassionOne-Bold'), url(feOcYDy2R-f3Ysy72PYJ2jqR_3kx9_hJXbbyU8S6IN0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Passion One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Passion One'), local('PassionOne-Regular'), url(fY6k21F1QT2c_Oc3HRNDwobN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+.bg-footer-pemetaan{
+	height:20px; 
+	background-color: #3f3f3f; 
+	background-repeat: repeat-y;
+	background: -webkit-gradient(linear, left top, right top, from(#3f3f3f), to(#686868)); 
+	background: -webkit-linear-gradient(left, #3f3f3f, #686868); 
+	background: -moz-linear-gradient(left, #3f3f3f, #686868); 
+	background: -ms-linear-gradient(left, #3f3f3f, #686868); 
+	background: -o-linear-gradient(left, #3f3f3f, #686868);
+	
+	position:absolute;
+	z-index:999999; bottom: 0; width:100%; line-height:20px;
+	font-size:11px; color:#FFF; text-shadow:1px 1px 1px #000;
+}
